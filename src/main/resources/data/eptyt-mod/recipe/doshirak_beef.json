@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "E",
+    "L"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:beef"
+    },
+    "E": {
+      "item": "eptyt-mod:noodles"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "id": "eptyt-mod:doshirak_beef",
+    "count": 1
+  }
+}

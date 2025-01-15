@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "eptyt-mod",
+	"version": "${version}",
+	"name": "Eptyt Mod",
+	"description": "Прекрасный мод, прекрасный... я не е знаю... у меня сейчас мозги не очень варят, хотите почувствовать себя в общаге  - тогад этот мод для вас!",
+	"authors": [
+		"Yonik and Bonetti55"
+	],
+	"contact": {
+		"homepage": "https://doshirak.com/",
+		"sources": "https://github.com/Bonetti55",
+		"behance": "https://www.behance.net/7ae5047c#"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/eptyt-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.eptyt_mod.EptytMod"
+		],
+		"client": [
+			"com.eptyt_mod.EptytModClient"
+		]
+	},
+	"mixins": [
+		"eptyt-mod.mixins.json",
+		{
+			"config": "eptyt-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

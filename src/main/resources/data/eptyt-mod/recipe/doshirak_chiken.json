@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "E",
+    "W"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chicken"
+    },
+    "E": {
+      "item": "eptyt-mod:noodles"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "id": "eptyt-mod:doshirak_chiken",
+    "count": 1
+  }
+}

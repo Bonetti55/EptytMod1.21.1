@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        " W "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wheat"
+        },
+        "W": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "id": "eptyt-mod:noodles",
+        "count": 3
+    }
+}
